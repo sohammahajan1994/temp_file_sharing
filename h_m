@@ -1,0 +1,4 @@
+git clone --bare https://github.com/sohammahajan1994/temp_file_sharing.git
+cd temp_file_sharing.git/
+git remote set-url origin https://github.com/sohammahajan1994/test_mirroring.git
+git push --mirror
